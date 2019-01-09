@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1FD8D6F581525272693886 /* libPods-ProgressViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BDAB4CB478735F8780086 /* libPods-ProgressViewTests.a */; };
+		BB47480279ECB395B76766A9 /* libPods-ProgressView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0055131F6CCE0B6A67A4A4B7 /* libPods-ProgressView.a */; };
+		C2FDCE9121E382D300773872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDCE9021E382D300773872 /* AppDelegate.m */; };
+		C2FDCE9421E382D300773872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDCE9321E382D300773872 /* ViewController.m */; };
+		C2FDCE9721E382D300773872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FDCE9521E382D300773872 /* Main.storyboard */; };
+		C2FDCE9921E382D500773872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FDCE9821E382D500773872 /* Assets.xcassets */; };
+		C2FDCE9C21E382D500773872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FDCE9A21E382D500773872 /* LaunchScreen.storyboard */; };
+		C2FDCE9F21E382D500773872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDCE9E21E382D500773872 /* main.m */; };
+		C2FDCEA921E382D500773872 /* ProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDCEA821E382D500773872 /* ProgressViewTests.m */; };
+		C2FDCEB521E3834600773872 /* SYLoadingHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FDCEB321E3834600773872 /* SYLoadingHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2FDCEA521E382D500773872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FDCE8421E382D300773872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FDCE8B21E382D300773872;
+			remoteInfo = ProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0055131F6CCE0B6A67A4A4B7 /* libPods-ProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		540BDAB4CB478735F8780086 /* libPods-ProgressViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProgressViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E55725D15FD18E081B6DDE3 /* Pods-ProgressViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewTests/Pods-ProgressViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		AFB312A65753184986A8BEED /* Pods-ProgressViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressViewTests/Pods-ProgressViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7B839072B7F2864D022F6F4 /* Pods-ProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		C2FDCE8C21E382D300773872 /* ProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDCE8F21E382D300773872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2FDCE9021E382D300773872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2FDCE9221E382D300773872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2FDCE9321E382D300773872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2FDCE9621E382D300773872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2FDCE9821E382D500773872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FDCE9B21E382D500773872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FDCE9D21E382D500773872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FDCE9E21E382D500773872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2FDCEA421E382D500773872 /* ProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDCEA821E382D500773872 /* ProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewTests.m; sourceTree = "<group>"; };
+		C2FDCEAA21E382D500773872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FDCEB321E3834600773872 /* SYLoadingHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLoadingHUD.m; sourceTree = "<group>"; };
+		C2FDCEB421E3834600773872 /* SYLoadingHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLoadingHUD.h; sourceTree = "<group>"; };
+		C391C7BA0034106200D7D7BA /* Pods-ProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgressView/Pods-ProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FDCE8921E382D300773872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB47480279ECB395B76766A9 /* libPods-ProgressView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDCEA121E382D500773872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1FD8D6F581525272693886 /* libPods-ProgressViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A58651439A4C20A114789C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0055131F6CCE0B6A67A4A4B7 /* libPods-ProgressView.a */,
+				540BDAB4CB478735F8780086 /* libPods-ProgressViewTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2FDCE8321E382D300773872 = {
+			isa = PBXGroup;
+			children = (
+				C2FDCE8E21E382D300773872 /* ProgressView */,
+				C2FDCEA721E382D500773872 /* ProgressViewTests */,
+				C2FDCE8D21E382D300773872 /* Products */,
+				D10D91DD05D155707F9B302C /* Pods */,
+				1A58651439A4C20A114789C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FDCE8D21E382D300773872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDCE8C21E382D300773872 /* ProgressView.app */,
+				C2FDCEA421E382D500773872 /* ProgressViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FDCE8E21E382D300773872 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDCEB421E3834600773872 /* SYLoadingHUD.h */,
+				C2FDCEB321E3834600773872 /* SYLoadingHUD.m */,
+				C2FDCE8F21E382D300773872 /* AppDelegate.h */,
+				C2FDCE9021E382D300773872 /* AppDelegate.m */,
+				C2FDCE9221E382D300773872 /* ViewController.h */,
+				C2FDCE9321E382D300773872 /* ViewController.m */,
+				C2FDCE9521E382D300773872 /* Main.storyboard */,
+				C2FDCE9821E382D500773872 /* Assets.xcassets */,
+				C2FDCE9A21E382D500773872 /* LaunchScreen.storyboard */,
+				C2FDCE9D21E382D500773872 /* Info.plist */,
+				C2FDCE9E21E382D500773872 /* main.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		C2FDCEA721E382D500773872 /* ProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDCEA821E382D500773872 /* ProgressViewTests.m */,
+				C2FDCEAA21E382D500773872 /* Info.plist */,
+			);
+			path = ProgressViewTests;
+			sourceTree = "<group>";
+		};
+		D10D91DD05D155707F9B302C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C391C7BA0034106200D7D7BA /* Pods-ProgressView.debug.xcconfig */,
+				B7B839072B7F2864D022F6F4 /* Pods-ProgressView.release.xcconfig */,
+				AFB312A65753184986A8BEED /* Pods-ProgressViewTests.debug.xcconfig */,
+				5E55725D15FD18E081B6DDE3 /* Pods-ProgressViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FDCE8B21E382D300773872 /* ProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FDCEAD21E382D500773872 /* Build configuration list for PBXNativeTarget "ProgressView" */;
+			buildPhases = (
+				CCB74F526942A0D309BEABCE /* [CP] Check Pods Manifest.lock */,
+				C2FDCE8821E382D300773872 /* Sources */,
+				C2FDCE8921E382D300773872 /* Frameworks */,
+				C2FDCE8A21E382D300773872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgressView;
+			productName = ProgressView;
+			productReference = C2FDCE8C21E382D300773872 /* ProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FDCEA321E382D500773872 /* ProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FDCEB021E382D500773872 /* Build configuration list for PBXNativeTarget "ProgressViewTests" */;
+			buildPhases = (
+				3D8D932CBF3F1B597CD37DCD /* [CP] Check Pods Manifest.lock */,
+				C2FDCEA021E382D500773872 /* Sources */,
+				C2FDCEA121E382D500773872 /* Frameworks */,
+				C2FDCEA221E382D500773872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FDCEA621E382D500773872 /* PBXTargetDependency */,
+			);
+			name = ProgressViewTests;
+			productName = ProgressViewTests;
+			productReference = C2FDCEA421E382D500773872 /* ProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FDCE8421E382D300773872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FaceBook;
+				TargetAttributes = {
+					C2FDCE8B21E382D300773872 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C2FDCEA321E382D500773872 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C2FDCE8B21E382D300773872;
+					};
+				};
+			};
+			buildConfigurationList = C2FDCE8721E382D300773872 /* Build configuration list for PBXProject "ProgressView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2FDCE8321E382D300773872;
+			productRefGroup = C2FDCE8D21E382D300773872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FDCE8B21E382D300773872 /* ProgressView */,
+				C2FDCEA321E382D500773872 /* ProgressViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FDCE8A21E382D300773872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDCE9C21E382D500773872 /* LaunchScreen.storyboard in Resources */,
+				C2FDCE9921E382D500773872 /* Assets.xcassets in Resources */,
+				C2FDCE9721E382D300773872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDCEA221E382D500773872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D8D932CBF3F1B597CD37DCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCB74F526942A0D309BEABCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProgressView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FDCE8821E382D300773872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDCE9421E382D300773872 /* ViewController.m in Sources */,
+				C2FDCEB521E3834600773872 /* SYLoadingHUD.m in Sources */,
+				C2FDCE9F21E382D500773872 /* main.m in Sources */,
+				C2FDCE9121E382D300773872 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDCEA021E382D500773872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDCEA921E382D500773872 /* ProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2FDCEA621E382D500773872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FDCE8B21E382D300773872 /* ProgressView */;
+			targetProxy = C2FDCEA521E382D500773872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2FDCE9521E382D300773872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FDCE9621E382D300773872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2FDCE9A21E382D500773872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FDCE9B21E382D500773872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FDCEAB21E382D500773872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2FDCEAC21E382D500773872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FDCEAE21E382D500773872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C391C7BA0034106200D7D7BA /* Pods-ProgressView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = ProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.ProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2FDCEAF21E382D500773872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B839072B7F2864D022F6F4 /* Pods-ProgressView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = ProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.ProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2FDCEB121E382D500773872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB312A65753184986A8BEED /* Pods-ProgressViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = ProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.ProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressView.app/ProgressView";
+			};
+			name = Debug;
+		};
+		C2FDCEB221E382D500773872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E55725D15FD18E081B6DDE3 /* Pods-ProgressViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NJC3EGBWR;
+				INFOPLIST_FILE = ProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FaceBook.ProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProgressView.app/ProgressView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FDCE8721E382D300773872 /* Build configuration list for PBXProject "ProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDCEAB21E382D500773872 /* Debug */,
+				C2FDCEAC21E382D500773872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FDCEAD21E382D500773872 /* Build configuration list for PBXNativeTarget "ProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDCEAE21E382D500773872 /* Debug */,
+				C2FDCEAF21E382D500773872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FDCEB021E382D500773872 /* Build configuration list for PBXNativeTarget "ProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDCEB121E382D500773872 /* Debug */,
+				C2FDCEB221E382D500773872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2FDCE8421E382D300773872 /* Project object */;
+}
