@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-
+    
     UIButton *bt  = [UIButton buttonWithType:UIButtonTypeCustom];
     bt.frame = CGRectMake(100, 100, 100, 40);
     bt.backgroundColor = [UIColor redColor];
@@ -38,12 +38,11 @@
 }
 
 - (void)timerAction{
-    self.progressView.progress += 0.02;
-    if (self.progressView.progress > 0.8) {
-        NSLog(@"22");
-        [_timer invalidate];
-        _timer = nil;
-    }
+        self.progressView.progress += 0.1;
+        if (self.progressView.progress > 1.0) {
+            [_timer invalidate];
+            _timer = nil;
+        }
 }
 
 @end

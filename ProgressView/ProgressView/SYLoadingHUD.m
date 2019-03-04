@@ -118,12 +118,14 @@
 
 - (void)setProgress:(CGFloat)progress{
     _progress = progress;
-    self.percentTextLabel.text = [NSString stringWithFormat:@"%d%%", (int)floor(progress * 100)];
-    if (_progress >= 1.0) {
-        [self dismissWithAnimation:NO];
-    } else {
-        [self setNeedsDisplay];
-    }
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.percentTextLabel.text = [NSString stringWithFormat:@"%d%%", (int)floor(progress * 100)];
+        if (self.progress >= 1.0) {
+            [self dismissWithAnimation:NO];
+        } else {
+            [self setNeedsDisplay];
+        }
+    });
 }
 
 
